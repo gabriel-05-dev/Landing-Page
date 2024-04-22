@@ -28,6 +28,7 @@ body {
     margin-left: 50px;
 }
 
+
 .section_1 {
     display: flex;
     height: 30vh;
@@ -47,19 +48,16 @@ body {
     width: 90px;
 }
 
+.section_1 .section_1_left_information .sec_1_main_txt {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .section_1_left_information {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: 50px;
-
-}
-
-.section_1_right_information {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 50px;
 
 }
 
@@ -70,7 +68,6 @@ body {
     height: 200px;
     width: auto;
     margin-right: 50px;
-
     flex: 1;
 }
 
@@ -80,18 +77,23 @@ body {
 }
 
 .section_2 .section_2_title {
+    margin-top: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
 .section_2 .boxes_section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+ display: flex;
+ padding-top: 1em;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-shrink: 0;
 }
 .section_2 .box {
   width: 150px;
   height: 100px;
   border: 1px solid black;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
 }
@@ -102,17 +104,23 @@ body {
 
 .section_3 {
     display: flex;
-    margin-top: 50px;
+    flex-direction: column;
     background-color: rgb(219, 216, 216);
-    height: 360px;
+    height: 300px;
     justify-content: center;
     align-items: center;
 }
 
 .section_3 .quote {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
-    padding: 100px;
+    padding: 0px 100px 0px 100px;
+}
+
+.section_3 .quote_author {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 80px;
 }
 
 .section_4 {
@@ -128,6 +136,7 @@ body {
   width: 800px;
   height: 180px;
   border: 1px solid black;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
 }
