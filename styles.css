@@ -18,12 +18,14 @@ body {
     list-style: none;
     color: #E5E7EB;
     font-size: 18px;
+    padding-right: 25px;
 }
 
 .header .header_title {
     color: #f9faf8;
     font-weight: bold;
     font-size: 24px;
+    margin-left: 50px;
 }
 
 .section_1 {
@@ -36,16 +38,29 @@ body {
     background-color: #1f2937;
 }
 
+#section1_btn {
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(71, 181, 181);
+    border-color: rgb(71, 181, 181);
+    height: 35px;
+    width: 90px;
+}
+
 .section_1_left_information {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 50px;
+
 }
 
 .section_1_right_information {
     display: flex;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    margin-right: 50px;
+
 }
 
 .image {
@@ -54,28 +69,75 @@ body {
     justify-content: center;
     height: 200px;
     width: auto;
+    margin-right: 50px;
+
+    flex: 1;
 }
 
 .section_2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
     background-color: white;
-    height: 30vh;
+    height: 360px;
 }
 
-.section_2 .boxes {
+.section_2 .section_2_title {
+    text-align: center;
+}
+
+.section_2 .boxes_section {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
-
 .section_2 .box {
-  display: flex;
-  width: 200px;
+  width: 150px;
   height: 100px;
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
 }
 
+.section_2 .box_text {
+    text-align: center;
+}
+
+.section_3 {
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(219, 216, 216);
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3 .quote {
+    font-size: 36px;
+    text-align: center;
+    padding: 100px;
+}
+
+.section_4 {
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    height: 360px;;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_4 .banner {
+  width: 800px;
+  height: 180px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.footer .text_fter {
+    color: white;
+}
