@@ -8,7 +8,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #af8f31;
 }
 
 .header, .header_list {
@@ -37,7 +37,7 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #957b2d;
 }
 
 #section1_btn {
@@ -73,13 +73,14 @@ body {
 }
 
 .section_2 {
-    background-color: white;
+    background-color: #af8f31;
     height: 360px;
 }
 
 .section_2 .section_2_title {
     margin-top: 35px;
     font-size: 30px;
+    color: white;
     text-align: center;
 }
 
@@ -91,22 +92,59 @@ body {
  flex-shrink: 0;
 }
 .section_2 .box {
-  width: 150px;
-  height: 100px;
-  border: 1px solid black;
+  width: 192px;
+  height: 108px;
+  background-image: url(images/customs.webp);
+  background-size: cover;
+  border: 3px solid rgb(255, 255, 255);
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
 }
 
+.section_2 .box2 {
+    width: 192px;
+    height: 108px;
+    background-image: url(images/reserve.webp);
+    background-size: cover;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .section_2 .box3 {
+    width: 192px;
+    height: 108px;
+    background-image: url(images/shoreline.webp);
+    background-size: cover;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .section_2 .box4 {
+    width: 192px;
+    height: 108px;
+    background-image: url(images/streets.webp);
+    background-size: cover;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+
 .section_2 .box_text {
     text-align: center;
+    color: white;
 }
 
 .section_3 {
     display: flex;
     flex-direction: column;
-    background-color: rgb(219, 216, 216);
+    background-color: #957b2d;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -114,38 +152,63 @@ body {
 
 .section_3 .quote {
     font-size: 30px;
+    color: white;
     text-align: center;
     padding: 0px 100px 0px 100px;
 }
 
 .section_3 .quote_author {
     display: flex;
+    color: white;
     align-self: flex-end;
     margin-right: 80px;
 }
 
 .section_4 {
     display: flex;
-    margin-top: 50px;
-    background-color: white;
+    background-color: #af8f31;
     height: 360px;;
     justify-content: center;
     align-items: center;
 }
 
 .section_4 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/news_banner.jpg);
+  background-size: cover; 
   width: 800px;
   height: 180px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
 }
 
+.section_4 .banner_text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.section_4 .banner_btn {
+    height: 50px;
+    width: 150px;
+    background-color:  rgb(71, 181, 181);
+    border-color: rgb(71, 181, 181);
+    color: white;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #957b2d;
 }
 
 .footer .text_fter {
