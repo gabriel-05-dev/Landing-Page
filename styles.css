@@ -13,7 +13,6 @@ body {
 
 .header, .header_list {
     display: flex;
-    align-items: center;
     gap: 25px;
     list-style: none;
     color: #E5E7EB;
