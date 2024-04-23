@@ -4,7 +4,6 @@ body {
     justify-content: space-around;
 }
 
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -214,4 +213,16 @@ body {
 
 .footer .text_fter {
     color: white;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+    color: #E5E7EB;
+}
+
+ul li:hover{
+    background-color: #e8bb32; 
+    border-radius: 8px;
+    padding: 1px;
 }
